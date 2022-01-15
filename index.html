@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My CSS Website</title>
+
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+   <!--Google Fonts--> 
+
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+   <link href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js
+   " rel="stylesheet">
+
+     <!-- local CSS -->
+  <link rel="stylesheet" href="style.css">
+
+   <!-- Script -->
+  <script src="script.js"> </script>
+
+
+</head>
+
+ <body>
+<section id = "home">
+
+<nav>
+    <label> <a href="index.html"><Img class = "logo" src="images/logo-white.svg"></label></a>
+        
+        <ul id="dropdownClick">
+           <li><a class = "active" href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#overview">Overview</a></li>
+           <li><a href="#product">Product</a></li>
+           <li><a href="#contact">Contact</a></li>
+
+           <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+   
+ 
+</nav>
+
+<!-- Landing Page -->
+
+  
+
+    <div class = "container" id = "landing-image">
+
+        <div class="row">
+            <div class = "col-6">
+              <div class = "leftside-col">
+                    <div>
+                        <h1 class  = "large"> Powering a cleaner<br>and greener future</h1>
+                    </div>
+
+             </div>
+          </div>
+            <div class = "col-6">
+                <div class = "rightside-col">
+              
+               </div>
+            </div>
+        </div>
+    
+     </div>
+
+
+</section>
+
+<!-- about section -->
+
+<section id = "about">
+    <div class = "container">
+        <h2 class = "text-main">About Us</h2>
+    </div>
+
+
+    <div class  = "container">
+        <div class = "row">
+
+            <div class = "col-6">
+        <div class="icon">
+            <img src="images/img4.jpg" alt="">
+        </div>
+            </div>
+        <div class = "col-6">
+                <div class="icon">
+                    <a href="index.html">
+                <Img class = "logo-color" src="images/logo.svg"></div></a>
+            <article>
+                <p class = 'text'>
+                    We are providing energy using renewable resources like solar, wind and water provided by nature to light the way of our lives. Our mission is to make this world carbon free.
+                </p>
+            </article>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class  = "container">
+        <div class = "row">
+        <div class = "col-12">
+            <div class="text">
+            <article>
+                <p class = "text1">
+                    We are one of the world's largest investors in renewable power, with over 19,000 megawatts of generating capacity. Our assets, located in North and South America, Europe, India and China, comprise a diverse technology base of hydro, wind, utility-scale solar, distributed generation, storage and other renewable technologies.
+                </p>
+            </article>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div class  = "container">
+        <div class = "about-images">
+        <div class = "row">
+            
+            <div class = "col-3">
+                <div class="img-about">
+                    <Img  src="images/img5.png"></div>
+                      
+            </div>
+            <div class = "col-3">
+                <div class="img-about">
+                    <Img  src="images/img6.png"></div>
+            </div>
+            <div class = "col-3">
+                <div class="img-about">
+                    <Img src="images/img7.png"></div>
+            </div>
+            <div class = "col-3">
+                <div class="img-about">
+                    <Img  src="images/img8.png"></div>
+            </div>
+
+            </div>
+            </div>
+        </div>
+    
+
+
+</section>
+<!-- overview section -->
+
+<section id  = "overview">
+    <div class = "container">
+        <h2 class = "text-main">Company Overview</h2>
+    </div>
+
+        <div class = "overview-section">
+
+            <div class="container">
+                <div class="tab">
+                  <button class="tablink active-tab" onclick="openCategory(event,'Solar')">Solar</button>
+                  <button class="tablink" onclick="openCategory(event,'Wind')">Wind</button>
+                  <button class="tablink" onclick="openCategory(event,'Hydro')">Hydro</button>
+                  <button class="tablink" onclick="openCategory(event,'Nuclear')">Nuclear</button>
+                </div>
+
+
+                <div id="Solar" class="container category">
+                    <div class = "row">
+            
+                        <div class = "col-4">
+                            <article>
+                                <p class = 'text-overview'>
+                                    One of the fastest-growing sources of renewable energy, utility-scale solar offers high cash margins and diverse and scalable applications. 
+
+                                </p>
+                            </article>
+            
+                        <h4 class = "overview-stat">3300 MW</h4>
+                        <p class = 'overview-stat2'>
+                           In Operation
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">6500 MW</h4>
+                        <p class = 'overview-stat2'>
+                           Under Construction
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">125</h4>
+                        <p class = 'overview-stat2'>
+                            Energy Generation Fcilities
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">45</h4>
+                        <p class = 'overview-stat2'>
+                            Solar Projects 
+                        </p>
+                        </div>
+                        <div class = "col-8">
+                            <div class="img-overview">
+                                <Img  src="images/img-overview-1.jpg"></div>
+            
+                                    <article>
+                                        <p class = 'text-overview2'>
+                                            In 2017, we acquired a 51% interest in TerraForm Power, a publicly traded renewable power company with a large-scale and diversified portfolio contracted wind, solar and distributed generation located predominantly in the United States, and its cash flows are underpinned by long-term contracts with creditworthy off-takers.
+                                        </p>
+                                    </article>
+                        </div>
+                    </div>
+                  </div>
+
+
+                  <div id="Wind" class="container category" style="display:none">
+                    <div class = "row">
+            
+                        <div class = "col-4">
+                            <article>
+                                <p class = 'text-overview'>
+                                    Our growing wind portfolio is diversified across attractive power markets in North America, South America, Europe and Asia.
+                                </p>
+                            </article>
+            
+                        <h4 class = "overview-stat">4100 MW</h4>
+                        <p class = 'overview-stat2'>
+                           In Operation
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">3500 MW</h4>
+                        <p class = 'overview-stat2'>
+                           Under Construction
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">165</h4>
+                        <p class = 'overview-stat2'>
+                            Energy Generation Fcilities
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">65</h4>
+                        <p class = 'overview-stat2'>
+                           Turbine Systems 
+                        </p>
+                        </div>
+                        <div class = "col-8">
+                            <div class="img-overview">
+                                <Img  src="images/img-overview-2.jpg"></div>
+            
+                                    <article>
+                                        <p class = 'text-overview2'>
+                                            In 2014 we established our European wind platform by acquiring a wind portfolio from the government of Ireland, consisting of 17 wind projects with over 320 megawatts of operating capacity, as well as a significant development portfolio. Utilizing this platform, we have since developed approximately 200 megawatts of wind farms.
+                                    </article>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div id="Hydro" class="container category" style="display:none">
+                    <div class = "row">
+            
+                        <div class = "col-4">
+                            <article>
+                                <p class = 'text-overview'>
+                                    Our hydro power assets are characterized by a perpetual asset life, high cash margins, and storage capacity.
+                                </p>
+                            </article>
+            
+                        <h4 class = "overview-stat">5300 MW</h4>
+                        <p class = 'overview-stat2'>
+                           In Operation
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">7854 MW</h4>
+                        <p class = 'overview-stat2'>
+                           Under Construction
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">158</h4>
+                        <p class = 'overview-stat2'>
+                            Hydro Generation Fcilities
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">45</h4>
+                        <p class = 'overview-stat2'>
+                           Power Plants 
+                        </p>
+                        </div>
+                        <div class = "col-8">
+                            <div class="img-overview">
+                                <Img  src="images/img-overview-3.jpg"></div>
+            
+                                    <article>
+                                        <p class = 'text-overview2'>
+                                            Holtwood — In 2020, we acquired this portfolio of two hydro stations in Pennsylvania with 452 megawatts of installed capacity, enough to power more than 200,000 homes annually. Holtwood benefits from synergies with our Safe Harbor facility, as well as from a diverse revenue stream.
+                                        </p>
+                                    </article>
+                        </div>
+                    </div>
+                  </div>
+
+
+                  <div id="Nuclear" class="container category" style="display:none">
+                    <div class = "row">
+            
+                        <div class = "col-4">
+                            <article>
+                                <p class = 'text-overview'>
+                                    Our commercial and industrial distributed-nuclear generation portfolio offers consumers access to power at the point of consumption.
+                                </p>
+                            </article>
+            
+                        <h4 class = "overview-stat">5700 MW</h4>
+                        <p class = 'overview-stat2'>
+                           In Operation
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">6000 MW</h4>
+                        <p class = 'overview-stat2'>
+                           Under Construction
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">105</h4>
+                        <p class = 'overview-stat2'>
+                            Nuclear Generation Fcilities
+                        </p>
+                        <br>
+            
+                        <h4 class = "overview-stat">51</h4>
+                        <p class = 'overview-stat2'>
+                            River Systems 
+                        </p>
+                        </div>
+                        <div class = "col-8">
+                            <div class="img-overview">
+                                <Img  src="images/img-overview-4.jpg"></div>
+            
+                                    <article>
+                                        <p class = 'text-overview2'>
+                                            The 600-megawatt Jack Cockwell nuclear storage generating station in northern Massachusetts is one of only two of its kind in New England. The facility sells energy and capacity into wholesale markets and plays an important role in providing flexibility and stability to the electrical grid.
+                                        </p>
+                                    </article>
+                        </div>
+                    </div>
+                  </div>
+    </section>
+
+    <!-- product -->
+
+    <section id  = "product">
+        <div class = "container">
+            <h2 class = "text-main">Products and Solutions</h2>
+        </div>
+        <div class  = "container">
+            <div class = "product-images">
+            <div class = "row">
+                
+                <div class = "col-3 col-product">
+                    <div class="img-product">
+                        <Img  src="images/img9.jpg"></div>
+                            <h3 class = "text-solution">Solar Energy</h3>
+                </div>
+                <div class = "col-3 col-product">
+                    <div class="img-product">
+                        <Img src="images/img11.jpg"></div>
+                            <h3 class = "text-solution">Wind Energy</h3>
+                </div>
+                <div class = "col-3 col-product">
+                    <div class="img-product">
+                        <Img  src="images/img12.jpg"></div>
+                            <h3 class = "text-solution">Hydro Electricity</h3>
+                </div>
+                <div class = "col-3 col-product">
+                    <div class="img-product">
+                        <Img  src="images/img10.jpg"></div>
+                            <h3 class = "text-solution">Nuclear Energy</h3>
+                </div>
+                </div>
+                </div>
+            </div>
+    
+    </section>
+    
+
+
+<!-- footer section -->
+
+<section id = "contact">
+<footer class = "footerinfo">
+
+    <div class = "row">
+        <div class = "col-3 footer-mobile">
+            <ul>
+                <li>Products & Solutions</li>
+                <li>Successful Projects</li>
+                <li>Customer Support
+                </li>
+            </ul>
+        </div>
+
+        <div class = "col-3 footer-mobile">
+           
+            <ul>
+                <li>Download Center</li>
+                <li>Press Release</li>
+                <li>Blogs</li>
+                
+            </ul>
+        </div>
+
+        <div class = "col-3 footer-mobile">
+            
+            <ul>
+                <li>About Us</li>
+                <li>Global Contact</li>
+                <li>Career</li>
+            </ul>
+        </div>
+
+        <div class = "col-3 footer-mobile">
+            <div class="footer-icon">
+                <a href="index.html">
+                <Img src="images/logo-white.svg"></div></a>
+        </div>
+    </div>
+
+
+    <div class = "row">
+
+        <div class = "col-3 footer-mobile">
+            <p class = "footer-end">Terms and Conditions</p>
+        </div>
+
+        <div class = "col-3 footer-mobile">
+            <p class = "footer-end">Privacy Policy</p>
+        </div>
+
+        <div class = "col-3 footer-mobile">
+            
+            <p class = "footer-end">Legal Disclaimer</p>
+        </div>
+
+        <div class = "col-3 footer-mobile">
+            <p class = "footer-end">© 2021 Ecofuel Corporation</p>
+          </div>
+    </div>
+
+    
+</footer>
+</section>
+
+   
+
+
+
+ </body>
+<html>
